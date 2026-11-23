@@ -5,7 +5,7 @@
 
 | 菜单（v9.5 · 38 项） | 游戏内 ESP（透墙 + 距离） |
 |:---:|:---:|
-| ![菜单](docs/preview.png) | ![ESP](docs/esp.png) |
+| ![菜单](docs/preview.jpg) | ![ESP](docs/esp.jpg) |
 
 ---
 
