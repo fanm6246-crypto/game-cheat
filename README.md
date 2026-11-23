@@ -3,7 +3,9 @@
 《我帶过的最差一届 / Worst Class Ever》的单机 Mod 辅助 —— 走游戏**官方 Mod 系统 + 自带 Harmony**，
 不改游戏文件、不改内存、不需要 BepInEx、不受 Steam 文件校验影响。
 
-![界面](docs/preview.png)
+| 菜单（v9.5 · 38 项） | 游戏内 ESP（透墙 + 距离） |
+|:---:|:---:|
+| ![菜单](docs/preview.png) | ![ESP](docs/esp.png) |
 
 ---
 
