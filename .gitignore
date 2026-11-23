@@ -1,0 +1,29 @@
+# ───────── 构建产物 ─────────
+*.dll
+*.pdb
+*.exe
+*.obj
+WCE-Hack.exe
+mod/WceHack.dll
+launcher/payload/WceHack.dll
+
+# ───────── 调试输出 / 截图 / IL dump ─────────
+out/
+selftest.txt
+
+# ───────── 一次性打补丁脚本 ─────────
+patch_v*.py
+probe_lu.py
+
+# ───────── 源码备份 ─────────
+*.bak
+*.bak[0-9]*
+*.prev
+
+# ───────── 系统 ─────────
+Thumbs.db
+desktop.ini
+.DS_Store
+.vs/
+.vscode/
+.idea/
