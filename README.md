@@ -1,4 +1,4 @@
-# WCE-Hack
+# GS Cheat
 
 《我帶过的最差一届 / Worst Class Ever》的单机 Mod 辅助 —— 走游戏**官方 Mod 系统 + 自带 Harmony**，
 不改游戏文件、不改内存、不需要 BepInEx、不受 Steam 文件校验影响。
@@ -29,7 +29,7 @@
 ## 安装
 
 1. 完全退出游戏
-2. 双击 `WCE-Hack.exe` → 点「① 部署」
+2. 双击 `GS-Cheat.exe` → 点「① 部署」
 3. 点「③ 启动游戏」（走 Steam 启动，否则会提示「Steam 尚未初始化」）
 4. 进游戏按 <kbd>F2</kbd> 呼出面板
 
@@ -112,7 +112,7 @@ $Managed = "C:\Program Files (x86)\Steam\steamapps\common\Worst Class Ever\Worst
 
 ```powershell
 cd launcher
-csc /nologo /target:winexe /langversion:5 /optimize+ /out:..\WCE-Hack.exe `
+csc /nologo /target:winexe /langversion:5 /optimize+ /out:..\GS-Cheat.exe `
   /win32manifest:app.manifest `
   /resource:payload\WceHack.dll,payload.dll `
   /resource:payload\mod.json,payload.json `

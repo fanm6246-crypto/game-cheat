@@ -1,4 +1,4 @@
-// WCE-Hack Launcher — 单文件 exe：自解压外挂 mod + 修复启用状态 + 启动游戏
+// GS Cheat Launcher — 单文件 exe：自解压外挂 mod + 修复启用状态 + 启动游戏
 // 编译: csc.exe /target:winexe /langversion:5 /win32manifest:app.manifest /resource:... 
 using System;
 using System.Collections.Generic;
@@ -377,7 +377,7 @@ namespace WceLauncher
 
         public MainForm()
         {
-            Text = "WCE Hack Launcher   v2";
+            Text = "GS Cheat   v2";
             ClientSize = new Size(580, 452);
             StartPosition = FormStartPosition.CenterScreen;
             FormBorderStyle = FormBorderStyle.FixedSingle;
@@ -387,7 +387,7 @@ namespace WceLauncher
             Font = new Font("Microsoft YaHei UI", 9f);
 
             var t = new Label();
-            t.Text = "WCE HACK";
+            t.Text = "GS CHEAT";
             t.Font = new Font("Microsoft YaHei UI", 17f, FontStyle.Bold);
             t.ForeColor = Acc;
             t.SetBounds(18, 14, 240, 34);
